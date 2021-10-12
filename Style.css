@@ -23,7 +23,8 @@
 
   li {
     display: inline;
-    margin: auto;
+    margin: 8px;
+    font: bold;
   }
   li a {
     text-align: center;
@@ -33,20 +34,6 @@
   a:hover {
     background-color: white ;
   }
-/*
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-   
-    
-  }
-  .grid-item {
-    
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    float: right;
-   
-    
-  }*/
 
   .grid-container {
     display: grid;
