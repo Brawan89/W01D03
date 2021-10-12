@@ -2,8 +2,7 @@
 .content {
     max-width: 65%;
     margin: auto;
-    background: rgb(92, 88, 88);
-    padding: 10px;
+    padding: 2px;
     
   }
 
@@ -34,16 +33,69 @@
   a:hover {
     background-color: white ;
   }
-
+/*
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+   
     
   }
   .grid-item {
     
     border: 1px solid rgba(0, 0, 0, 0.8);
     float: right;
-    font-size: 30px;
+   
+    
+  }*/
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 5px;
+    background-color: rgb(167,167,169);
+    padding: 2px;
     
   }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+   
+  }
+  
+  .item {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+  }
+
+  .item>img{
+    display:inline;
+  }
+
+  .item>h3{
+    padding: 10px;
+  }
+  .item>h5{
+    padding: 10px;
+  }
+
+  button{
+    float:right;
+    background-color: rgb(252,69,1);
+    border: black;
+  }
+  .solid {
+    border-style: solid;}
+
+ 
+    footer {
+      text-align: center;
+      padding: 0 ;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+ 
+  
