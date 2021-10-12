@@ -1,0 +1,49 @@
+
+.content {
+    max-width: 65%;
+    margin: auto;
+    background: rgb(92, 88, 88);
+    padding: 10px;
+    
+  }
+
+  img {
+      margin: auto ;
+      width: 100%;
+      height: 200px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: orangered;
+  }
+  
+
+  li {
+    display: inline;
+    margin: auto;
+  }
+  li a {
+    text-align: center;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: white ;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+  }
+  .grid-item {
+    
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    float: right;
+    font-size: 30px;
+    
+  }
